@@ -1,0 +1,74 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	overflow:hidden;
+}
+.box{
+	width:100%;
+}
+.smallbox{
+	width:100%;
+}
+.leftdoor, .rightdoor{
+	/*width:69%;.*/
+}
+.leftdoor{
+	position:absolute;
+	top:-1%;
+	left:0;
+	overflow:hidden;
+}
+.rightdoor{
+	position:absolute;
+	top:-1%;
+	right:0px;
+	overflow:hidden;
+}
+.playgame{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:88%;
+	left:47.3%;
+}
+.playgame:hover{
+	width:120px;
+	height:120px;
+	margin:-10px 0 0 -10px;
+}
+video{
+	width:100%;
+	height:100%;
+	display:none;
+}
+button{
+	z-index:11;
+	width:100px;
+	height:50px;
+	display:none;
+	color:white;
+	font-size:16px;
+	background: RoyalBlue;
+	border:none;
+	cursor:pointer;
+}
+button:hover{
+	background: gold;
+	box-shadow:2px 2px 100px gold;
+}
+
+.bt1{
+	position:absolute;
+	left:47.5%;
+	bottom:0;
+	overflow:hidden;
+}
+
+/*.bg{
+	width:100%;
+	height:100%;
+	display:none;
+	opacity:0;
+}*/

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>斗地主</title>
+	<link rel="stylesheet" href="./css/animation.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="./js/animation.js"></script>
+	<script type="text/javascript" src="./js/game.js"></script>
+</head>
+<body class="">
+<!-- ======动画开始====== -->
+<div class="box">
+		<div class="smallbox">
+			<img class="leftdoor"  id="leftdoor"src="./images/animation/a.png" alt="">
+			<img class="rightdoor" id="rightdoor" src="./images/animation/b.png" alt="">
+			<img class="playgame" id="playgame" src="./images/animation/play.png" alt="">
+			<!-- <img class="bg" src="./images/animation/16.png" alt=""> -->
+			<video autoplay="autoplay">
+				<source src="./images/animation/动画.mp4">
+			</video>
+			<button class="bt1">关闭视频</button>
+		</div>	
+</div>
+<!-- ======动画结束====== -->
+
+<div class="left">
+	<img class="icon1 Icon" src="./images/nm1.gif"></img>
+	<span class="setInterval_1 Interval">15</span>
+	<ul class="play_1 play"></ul>
+	<ul class="desktopPoke dtPoke1 "></ul>
+	<p class="play_btn">
+		<input class="get" type="button" name="" value="抢主主">
+		<input class="cancel" type="button" name="" value="不抢">
+	</p>
+	<p class="play_btn2 btn2a">
+		<input class="play_out" type="button" name="" value="出牌">
+		<input class="pass" type="button" name="" value="不出">
+		<input class="tips" type="button" name="" value="提示">
+	</p>
+
+</div>
+<div class="mid">
+	<div class="mid_top">
+		<ul class="all_poker">
+			<!-- <li class="back"></li> -->
+		</ul>
+	</div>
+	<div class="operate">
+		<input style="display:block" class="riffle" type="button" value="洗牌">
+		<input style="display:none" class="deals" type="button" value="发牌">
+	</div>
+	<div class="mid_end">
+		<img class="icon2 Icon" src="./images/nm2.gif"></img>
+		<span class="setInterval_2 Interval">15</span>
+		<ul class="play_2 play">
+			<!-- <li style="width: 125px; height: 175px; background: url(./images/14.png) -162px -5px;"></li>
+			<li class="select" style="width: 125px; height: 175px; background: url(./images/14.png) -162px -5px;"></li> -->
+		</ul>
+		<ul class="desktopPoke dtPoke2 "></ul>
+		<p class="play_btn btn2">
+			<input class="get" type="button" name="" value="抢主主">
+			<input class="cancel" type="button" name="" value="不抢">
+		</p>
+		<p class="play_btn2">
+			<input class="play_out" type="button" name="" value="出牌">
+			<input class="pass" type="button" name="" value="不出">
+			<input class="tips" type="button" name="" value="提示">
+		</p>
+	</div>
+	<div class="pocess">
+		<ul>
+			<li>对不起,你出的牌不符合规则</li>
+			<li>打不了</li>
+		</ul>
+	</div>
+	<div class="result">
+		<ul>
+			<li>
+				<img class="win" src="#" alt="">
+				<!-- <img class="nm" src="#" alt="">
+				<img class="nm1" src="#" alt=""> -->
+				<img class="dizhu" src="#" alt="">
+				<button>继续</button>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="right">
+	<img class="icon3 Icon" src="./images/nm3.gif"></img>
+	<span class="setInterval_3 Interval">15</span>
+	<ul class="play_3 play"></ul>
+	<ul class="desktopPoke dtPoke3 "></ul>
+	<p class="play_btn">
+		<input class="get" type="button" name="" value="抢主主">
+		<input class="cancel" type="button" name="" value="不抢">
+	</p>
+	<p class="play_btn2">
+		<input class="play_out" type="button" name="" value="出牌">
+		<input class="pass" type="button" name="" value="不出">
+		<input class="tips" type="button" name="" value="提示">
+	</p>
+</div>
+<audio class="music" src="#" autoplay></audio>
+<audio class="bg_music play" src="#" autoplay loop></audio>
+<!-- <audio calss='' src="" autoplay></audio> -->
+</body>
+</html>
